@@ -55,7 +55,7 @@ button{
 
 table{
   width: 100%;
-  table-layout: fixed;
+  /* table-layout: fixed; */
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
 }
@@ -63,12 +63,12 @@ table{
 
 
 #result table th,td{
-  padding: 0.2rem;
+  padding: 0.5rem;
   background: #A7F3D0;
   text-align: center;
-  /* word-wrap: break-word; */
-  /* overflow-wrap: break-word;
-  overflow: hidden; */
+  /* word-wrap: break-word; 
+  overflow-wrap: break-word; */
+  overflow: hidden;
   color: #064E3B;
 }
 
