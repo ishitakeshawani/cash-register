@@ -51,7 +51,7 @@ const TakeInput= (props) => {
     return(
         <div>
            <div>
-          <div className="bill-amount">
+          <div className="bill-amount">Cash Given:
           </div>
           <input type="number" id="pay" value={pay} 
             onChange={(e) => {
