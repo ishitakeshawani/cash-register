@@ -12,7 +12,7 @@ const Results = ({ans}) => {
                 No.of <br />
                 Notes
               </th>
-              <td className="noofnotes">{ans[0] > 0 ? ans[1] : " "}</td>
+              <td className="noofnotes">{ans[0] > 0 ? ans[0] : " "}</td>
               <td className="noofnotes">{ans[1] > 0 ? ans[1] : " "}</td>
               <td className="noofnotes">{ans[2] > 0 ? ans[2] : " "}</td>
               <td className="noofnotes">{ans[3] > 0 ? ans[3] : " "}</td>
